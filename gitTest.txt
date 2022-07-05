@@ -3,3 +3,9 @@ phone
 Touchscreen 
 Cover
 scratchless- Gorilla Glass
+If facing errors like Git main and master have different histories then use these commands:
+
+git checkout master   
+git branch main master -f    
+git checkout main  
+git push origin main -f 
